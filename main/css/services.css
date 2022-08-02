@@ -1,0 +1,644 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+/*-- -------------------------- -->
+<---           LANDING          -->
+<--- -------------------------- -*/
+
+html, body {
+    overflow-x: hidden;
+}
+
+#landing-page {
+    position: relative;
+    background:url("../images/services.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+.landing-text h1 {
+    padding: 0 0 0 20px ;
+    border-left: 5px solid var(--primary);
+}
+
+#landing-page p {
+    display: none;
+    position: absolute;
+    width: 100%;
+    bottom: 8px;
+    font-size: 5em;
+    color: #4c4c4c;
+    opacity: .9;
+    font-weight: 900;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clippy-desktop {
+    height: 80px;
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    -webkit-clip-path: polygon(71% 50%, 100% 0, 100% 100%, 0 100%, 0 0);
+            clip-path: polygon(71% 50%, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+/*-- -------------------------- -->
+<---           SERVICE          -->
+<--- -------------------------- -*/
+
+#service {
+    position: relative;
+}
+
+#services-heading h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    margin: 0;
+    padding-top: 100px;
+    margin-bottom: 30px;
+    line-height: 1em;
+}
+
+#services-heading h2 span {
+    color: var(--primary);
+    display: block;
+}
+
+#services-heading h2:before {
+    content: '';
+    position: absolute;
+    background: var(--primary);
+    width: 50px;
+    height: 2px;
+    left: 190px;
+    top: 110px;
+}
+
+#services-heading h2:after {
+    content: '';
+    position: absolute;
+    background: var(--primary);
+    width: 30px;
+    height: 2px;
+    left: 190px;
+    top: 119px;
+}
+
+.service-topper p {
+    margin-bottom: 40px;
+}
+
+.service-topper img {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.service-card {
+    height: auto;
+    margin-bottom: 90px;
+    margin-top: 50px;
+    position: relative;
+    max-width: 340px;
+}
+
+.service-card h3 {
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.padding-change {
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+.service-card:last-child {
+    padding-bottom: 100px;
+    margin-bottom: 0;
+}
+
+.service-card svg {
+    width: 70px;
+    height: auto;
+    float: left;
+    margin: 0 25px 400px 0;
+}
+
+.erosion {
+    margin-bottom: 300px !important;
+}
+
+#Capa_1 {
+
+}
+
+.lateral {
+    margin-bottom: 350px !important;
+}
+
+.concrete {
+    margin-bottom: 250px !important;
+}
+
+.tools {
+    margin-bottom: 250px !important;
+}
+
+.drainage {
+    margin-bottom: 250px !important;
+}
+
+.seismic {
+    margin-bottom: 250px !important;
+}
+
+.window {
+    margin-bottom: 250px !important;
+}
+
+.wood {
+    margin-bottom: 150px !important;
+}
+
+.clippy-sales {
+    bottom: -1px;
+}
+
+@media screen and (max-width: 325px) {
+
+    .service-card svg {
+        margin: 0 25px 0 0;
+    }
+
+}
+
+.service-card button {
+    border: transparent;
+    background: transparent;
+    font-size: 14px;
+    color: var(--heading);
+    margin: 0 auto;
+    position: relative;
+    padding-left: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.service-card button:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 86px;
+    height: 2px;
+    background: var(--primary);
+}
+
+.service-card button i {
+    padding-left: 10px;
+}
+
+/*-- -------------------------- -->
+<---      REBAR FABRICATION     -->
+<--- -------------------------- -*/
+
+#rebar-fabrication {
+    position: relative;
+    height: auto;
+    padding-bottom: 100px;
+    background:url("../images/sparks.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rebar-fabrication:before {
+    content: '';
+    position: absolute;
+    background: #000;
+    opacity: .8;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rebar-group {
+    position: relative;
+    z-index: 5;
+    padding-top: 100px;
+}
+
+#rebar-fabrication h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    margin: 0;
+    margin-bottom: 30px;
+    line-height: 1em;
+    color: #f5f3f3;
+}
+
+#rebar-fabrication p {
+    color: #f5f3f3;
+}
+
+#rebar-fabrication h2 span {
+    color: var(--primary);
+    display: block;
+}
+
+#rebar-fabrication h2:before {
+    content: '';
+    position: absolute;
+    background: var(--primary);
+    width: 50px;
+    height: 2px;
+    left: 120px;
+    top: 10px;
+}
+
+#rebar-fabrication h2:after {
+    content: '';
+    position: absolute;
+    background: var(--primary);
+    width: 30px;
+    height: 2px;
+    left: 120px;
+    top: 19px;
+}
+
+.rebar-button {
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background: var(--primary);
+    color: #000;
+}
+
+.rebar-button:before,
+.rebar-button:after {
+    border-color: var(--primary);
+}
+
+.icon-group {
+    height: 150px;
+    width: auto;
+    background: #f5f3f3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 20px 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.icon-group:last-child {
+    margin-bottom: 0;
+}
+
+.icon-group svg {
+    width: 50px;
+    height: auto;
+}
+
+.icon-group h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.clippy-sales {
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+    /*-- -------------------------- -->
+    <---          LANDING           -->
+    <--- -------------------------- -*/
+
+    #landing-page {
+        min-height: 600px;
+    }
+
+    .landing-text h1:before,
+    .landing-text h1:after {
+        display: none;
+    }
+
+    /*-- -------------------------- -->
+    <---         SERVICES           -->
+    <--- -------------------------- -*/
+
+    .service-topper {
+        height: auto;
+        margin-bottom: 50px;
+        padding-top: 100px;
+    }
+
+    #services-heading h2 {
+        padding-top: 0;
+    }
+
+    #services-heading h2:before {
+        top: 10px;
+    }
+    
+    #services-heading h2:after {
+        top: 19px;
+    }
+
+    .service-topper p {
+        width: 600px;
+    }
+
+    .service-card-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .service-card {
+        width: 300px;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    .service-card h3 {
+        height: 15px;
+        margin-top: 0;
+    }
+
+    .service-card p {
+        height: auto;
+    }
+
+    .service-card svg {
+        margin-bottom: 400px;
+        margin-right: 15px;
+        width: 50px;
+    }
+
+    .tools {
+        margin-bottom: 300px !important;
+    }
+
+    .seismic {
+        margin-bottom: 300px !important;
+    }
+
+    .clippy-sales {
+        bottom: -1px;
+    }
+
+    .padding-change {
+        padding-bottom: 25px;
+    }
+
+    /*-- -------------------------- -->
+    <---           REBAR            -->
+    <--- -------------------------- -*/
+
+    .rebar-group {
+        max-width: 615px !important;
+        margin: auto;
+    }
+
+    .icons-container {
+        height: 350px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+
+    .icon-group {
+        width: 280px;
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+
+    /*-- -------------------------- -->
+    <---          LANDING           -->
+    <--- -------------------------- -*/
+
+    #landing-page {
+        background-attachment: fixed;
+        height: 550px;
+    }
+
+    .landing-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 400px;
+
+    }
+
+    .landing-text {
+        margin-top: 25px;
+    }
+
+    .landing-text h1 {
+        font-size: 55px;
+        width: 550px;
+        padding: 0 20px;
+    }
+
+    /*-- -------------------------- -->
+    <---          SERVICE           -->
+    <--- -------------------------- -*/
+
+    #service {
+        margin: auto;
+    }
+
+    #services-heading {
+        width: 450px;
+    }
+
+    #services-heading h2:before {
+        left: 200px;
+    }
+
+    #services-heading h2:after {
+        left: 200px;
+    }
+
+    #services-heading p {
+        width: 700px;
+    }
+
+    .service-topper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin: auto;
+    }
+
+    .service-card-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin: auto;
+    }
+
+    .service-card {
+        max-width: 500px;
+        margin-bottom: 0;
+        height: 400px;
+    }
+
+    .service-card h3 {
+        margin-top: 0;
+    }
+
+    #service button {
+        width: auto;
+    }
+
+    /*-- -------------------------- -->
+    <---           REBAR            -->
+    <--- -------------------------- -*/
+
+    #rebar-fabrication {
+        max-height: 600px !important;
+        background-attachment: fixed;
+    }
+
+    #rebar-fabrication h2 {
+        margin-bottom: 0;
+        padding-top: 15px;
+    }
+
+    #rebar-fabrication h2:before {
+        top: 25px;
+    }
+    
+    #rebar-fabrication h2:after {
+        top: 34px;
+    }
+
+    .rebar-button {
+        width: 250px !important;
+    }
+
+    .rebar-group {
+        margin: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        height: 500px;
+        padding-top: 180px;
+    }
+
+    .rebar-group h2,
+    .rebar-group p,
+    .rebar-group button {
+        width: 400px;
+        margin-left: 0;
+        margin-right: 120px;
+    }
+
+    .icons-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        max-width: 580px;
+        height: 350px;
+    }
+
+    .icon-group {
+        width: 270px;
+        float: right;
+        margin: 0;
+    }
+
+}

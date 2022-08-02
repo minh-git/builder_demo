@@ -1,0 +1,526 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+
+/*-- -------------------------- -->
+<---           LANDING          -->
+<--- -------------------------- -*/
+
+#landing-page {
+    min-height: 400px;
+    background:url("../images/Product-1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.landing-group {
+    padding: 0;
+    margin: auto;
+    margin-right: auto;
+}
+
+.landing-text h1 {
+    padding-top: 0;
+    margin: 40px auto;
+    font-size: 30px;
+    border-left: 5px solid var(--primary);
+    text-align: right;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 280px;
+    margin-left: 30px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.clippy-desktop {
+    height: 80px;
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    -webkit-clip-path: polygon(71% 50%, 100% 0, 100% 100%, 0 100%, 0 0);
+            clip-path: polygon(71% 50%, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+/*-- -------------------------- -->
+<---          ADVANTECH         -->
+<--- -------------------------- -*/
+
+.advantech-promotion {
+    margin-bottom: 100px;
+}
+
+.advantech-promotion h2 span {
+    color: var(--primary);
+    position: relative;
+    display: block;
+}
+
+.advantech-promotion h2 span:before {
+    content: '';
+    position: absolute;
+    background: var(--primary);
+    width: 50px;
+    height: 2px;
+    left: 165px;
+    top: 10px;
+}
+
+.advantech-promotion h2 span:after {
+    content: '';
+    position: absolute;
+    background: var(--primary);
+    width: 30px;
+    height: 2px;
+    left: 165px;
+    top: 19px;
+}
+
+.advantech-promotion h2 {
+    display: block;
+    font-size: 2.1875em;
+    font-weight: 900;
+    color: #4c4c4c;
+    text-transform: uppercase;
+}
+
+.image-box {
+    width: 100%;
+    position: relative;
+    height: auto;
+    margin: 50px 0 0 0;
+}
+
+.image-box img {
+    width: 96%;
+    height: auto;
+    top: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.experience-content {
+    margin-bottom: 40px;
+}
+
+.promo {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 1.6em;
+    height: auto;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    margin: 0 0 10px 0;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.promo:before {
+    content: '';
+    height: 65px;
+    width: 5px;
+    background: var(--primary);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.code {
+    display: inline-block;
+    padding-top: 0px;
+    padding-left: 20px;
+    margin: 0;
+    font-weight: 900;
+    line-height: 1.2em;
+    font-size: 1.2em;
+}
+
+.experience-content h3 {
+    position: relative;
+    font-size: 1.25em;
+    padding-top: 15px;
+}
+
+.experience-content h3:before {
+    content: '';
+    position: absolute;
+    width: 300px;
+    background: var(--primary);
+    height: 2px;
+    bottom: -8px;
+}
+
+.experience-content h4 {
+    font-size: 2em;
+}
+
+.list {
+    padding-left: 0;
+    margin-top: 50px;
+}
+
+.header {
+    list-style: none;
+    padding-left: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #4c4c4c;
+}
+
+.header li {
+    font-weight: normal;
+    text-transform: none;
+    padding-top: 10px;
+    color: #4c4c4c;
+}
+
+ul li {
+    font-size: 1em;
+}
+
+.experience {
+    height: auto;
+}
+
+.experience-content button {
+    width: auto;
+    margin-top: 15px;
+}
+
+.experience-content button:before,
+.experience-content button:after {
+    border-color: #000;
+}
+
+.email {
+    font-weight: 900;
+}
+
+/*-- -------------------------- -->
+<---            JOTO            -->
+<--- -------------------------- -*/
+
+.joto-box {
+    margin-bottom: 50px;
+    height: 189px;
+}
+
+/*-- -------------------------- -->
+<---           GROUP            -->
+<--- -------------------------- -*/
+
+.group {
+    border: 1px solid #000;
+    height: 216px;
+}
+
+.group-box img {
+    height: 189px;
+    max-width: 550px;
+    border: 1px solid var(--primary);
+    margin-bottom: 40px;
+}
+
+.group-box:before,
+.group-box:after {
+    height: 189px;
+}
+
+/*-- -------------------------- -->
+<---           CONTACT          -->
+<--- -------------------------- -*/
+
+#contact {
+    position: relative;
+}
+
+.clippy-sales {
+    top:-199px;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+    /*-- -------------------------- -->
+    <---          LANDING           -->
+    <--- -------------------------- -*/
+
+    #landing-page {
+        min-height: 500px;
+    }
+
+    h1:after,
+    h1:before {
+        display: none;
+    }
+
+    .landing-text h1 {
+        font-size: 45px;
+        width: auto;
+        padding: 0 20px;
+    }
+
+    /*-- -------------------------- -->
+    <---          ADVANTECH         -->
+    <--- -------------------------- -*/
+
+    .advantech-promotion {
+        margin-bottom: 50px;
+    }
+
+    .image-box {
+        width: 100%;
+        height: 350px;
+    }
+
+    .image-box img {
+        height: 100%;
+        width: auto;
+        left: 0;
+    }
+
+    .image-box:before,
+    .image-box:after {
+        height: 300px;
+        width: 420px;
+    }
+
+    .experience-content button {
+        margin-top: 70px;
+    }
+
+    /*-- -------------------------- -->
+    <---            JOTO            -->
+    <--- -------------------------- -*/
+
+    .joto-box {
+        width: 100%;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+
+    .joto-box img {
+        height: auto;
+        width: 100%;
+    }
+
+    .joto-box:before,
+    .joto-box:after {
+        height: 300px;
+        width: 450px;
+    }
+
+    .experience-content button {
+        margin-top: 70px;
+    }
+
+    /*-- -------------------------- -->
+    <---           15% OFF          -->
+    <--- -------------------------- -*/
+
+    .group-box {
+        width: 100%;
+        height: 350px;
+    }
+
+    .group-box img {
+        height: auto;
+        width: 100%;
+    }
+
+    .group-box:before,
+    .group-box:after {
+        height: 300px;
+        width: 480px;
+    }
+
+    .experience-content button {
+        margin-top: 70px;
+    }
+
+    .discount {
+        margin-bottom: 100px;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+
+    /*-- -------------------------- -->
+    <---          LANDING           -->
+    <--- -------------------------- -*/
+
+    .image-box img {
+        display: none;
+    }
+
+    #landing-page {
+        height: 550px;
+    }
+
+    .container {
+        max-width: 1100px;
+    }
+
+    #landing-page {
+        min-height: 550px;
+        background-attachment: fixed;
+        margin-bottom: 100px;
+    }
+
+    .landing-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 400px;
+    }
+
+    .landing-text {
+        width: 932px !important;
+        margin-top: 25px;
+        width: auto;
+    }
+
+    .landing-text h1 {
+        font-size: 55px;
+        width: 600px;
+        padding: 0 20px;
+        text-align: left;
+        margin-bottom: 0;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .landing-text h2 {
+        padding-left: 0;
+        width: 700px;
+    }
+
+    /*-- -------------------------- -->
+    <---          ADVANTECH         -->
+    <--- -------------------------- -*/
+
+    .advantech-promotion {
+        margin-bottom: 70px;
+        position: relative;
+    }
+
+    .discount {
+        margin-bottom: 120px;
+    }
+
+    .adv {
+        background: url("../images/advantech-product.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+        width: 500px;
+    }
+
+    .bow {
+        background: url("../images/boman1.png");
+        background-size: contain;
+        background-position: center;
+        height: 400px;
+        width: 400px;
+    }
+    
+    .experience {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+
+    .experience-content {
+        width: 600px;
+    }
+
+    .image-box:before,
+    .image-box:after {
+        display: none;
+        height: 300px;
+        width: 420px
+    }
+
+    .image-box img {
+        height: 300px;
+        width: auto;
+    }
+
+    /*-- -------------------------- -->
+    <---             JOTO           -->
+    <--- -------------------------- -*/
+
+    .joto-box {
+        background: url("../images/joto-promo.png");
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+        width: 400px;
+    }
+
+    /*-- -------------------------- -->
+    <---           15% OFF          -->
+    <--- -------------------------- -*/
+
+    .group-box {
+        background: url("../images/group-2.png");
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+        width: 450px;
+        border: 1px solid var(--primary);
+    }
+
+    /*-- -------------------------- -->
+    <---           CONTACT          -->
+    <--- -------------------------- -*/
+
+    #contact {
+        position: relative;
+    }
+
+    .clippy-sales {
+        top: -198px;
+    }
+
+}

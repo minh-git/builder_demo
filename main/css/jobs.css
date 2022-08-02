@@ -1,0 +1,244 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+/*-- -------------------------- -->
+<---           LANDING          -->
+<--- -------------------------- -*/
+
+#landing-page {
+    position: relative;
+    background:url("../images/interview.jpg");
+    background-size: cover;
+    min-height: 400px;
+    margin-bottom: 40px;
+}
+
+.landing-text h1 {
+    padding: 0 0 0 20px ;
+    border-left: 5px solid var(--primary);
+}
+
+.clippy-desktop {
+    height: 80px;
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    -webkit-clip-path: polygon(71% 50%, 100% 0, 100% 100%, 0 100%, 0 0);
+            clip-path: polygon(71% 50%, 100% 0, 100% 100%, 0 100%, 0 0);
+} 
+
+/*-- -------------------------- -->
+<---           JOB APP          -->
+<--- -------------------------- -*/
+
+#credit-app-google-doc-preview {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+p span {
+    font-weight: 900;
+}
+
+.clippy-sales {
+    bottom: -1px;
+}
+
+iframe {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.app-list {
+    width: auto;
+    padding-top: 20px;
+}
+
+.app-list li {
+    padding-right: 16px;
+    padding-bottom: 20px;
+    font-size: 1em;
+}
+
+.jobs-h3 {
+    padding-top: 30px;
+}
+
+.job-button {
+    background: var(--primary);
+    border: none;
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0;
+    height: 40px;
+}
+
+.app-button {
+    display: block;
+    margin: 50px auto;
+    margin-bottom: 70px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+    /*-- -------------------------- -->
+    <---          LANDING           -->
+    <--- -------------------------- -*/
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    #landing-page {
+        height: 400px;
+    }
+
+    .credit-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    h1:after,
+    h1:before {
+        display: none;
+    }
+
+    .landing-text h1 {
+        font-size: 45px;
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .clippy-sales {
+        bottom: -1px;
+    }
+
+    .job-button {
+        width: 300px;
+    }
+
+    .jobs-h3 {
+        margin-top: 40px;
+    }
+
+    .jobs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+
+    /*-- -------------------------- -->
+    <---          LANDING           -->
+    <--- -------------------------- -*/
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    #landing-page {
+        background-attachment: fixed;
+        margin-bottom: 0;
+    }
+
+    .landing-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start ;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 500px;
+    }
+
+    .landing-text {
+        margin-top: 25px;
+    }
+
+    .landing-text h1 {
+        font-size: 55px;
+        width: 750px;
+        padding: 0 20px;
+        width: 1100px;
+    }
+
+    /*-- -------------------------- -->
+    <---         CREDIT APP         -->
+    <--- -------------------------- -*/
+
+    #credit-app-google-doc-preview {
+        position: relative;
+    }
+
+    .jobs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    .job-button {
+        width: 350px;
+    }
+
+    .job-button:hover {
+        cursor: pointer;
+        opacity: .8;
+    }
+
+    .credit-container {
+        margin-top: 50px;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .iframe {
+        height: auto;
+    }
+
+    iframe {
+        margin: 150px auto;
+        width: 100%;
+        height: 800px;
+    }
+
+    .app-button {
+        margin: 70px auto 100px auto;
+    }
+
+    .clippy-sales {
+        width: 100%;
+        position: absolute;
+    }
+
+}
